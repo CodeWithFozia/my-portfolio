@@ -8,12 +8,18 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      container : {
+        center:true,
+        padding:"15px"
       },
-    },
-  },
-  plugins: [],
-};
+      colors: {
+        accent: "#o8E95E"
+      },
+         
+      },
+     },
+     plugins: [],
+     };
+  
+
 export default config;
